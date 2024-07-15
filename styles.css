@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e7ecf1;
+    color: #1896d1;
+    margin: 1.6;
+    padding: 100px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #28d312;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+/* Links */
+a {
+    color: hsl(212, 18%, 86%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #3fb410;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2215da;
+}
+
+.navbar-nav .nav-link {
+    color: #1a58ca;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero section */
+.hero {
+    background: url('intro.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+}
+
+.hero .btn-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Features section */
+.features {
+    padding: 80px 0;
+    background-color: #eeeff0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    text-align: left;
+    padding: 20px;
+    background-color: #dee0e4;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.feature-item i {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Pricing section */
+.pricing {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 20px rgba(240, 236, 236, 0.1);
+    margin-bottom: 30px;
+}
+
+.pricing .card-body {
+    padding: 40px;
+}
+
+.pricing .card-body h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pricing .card-body p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #132bb6;
+}
+
+.pricing .card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing .card-body ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pricing .card-body .btn-primary {
+    background-color: #007bff;
+    border-color: #eff2f5;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+}
+
+.pricing .card-body .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #ebf0f7;
+}
+
+/* Contact section */
+.contact {
+    padding: 80px 0;
+    background-color: #12bd21;
+}
+
+.contact h2 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    margin-bottom: 30px;
+}
+
+.contact form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact form .form-control {
+    padding: 15px;
+}
+
+.contact form .btn-primary {
+    background-color: #007bff;
+    border-color: #c6c9cc;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+}
+
+.contact form .btn-primary:hover {
+    background-color: #f3f6fa;
+    border-color: hsl(212, 84%, 44%);
+}
+
+/* Footer */
+footer {
+    background-color: blue;
+    color: #fff;
+padding: 20px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+font-size: small;
+}
